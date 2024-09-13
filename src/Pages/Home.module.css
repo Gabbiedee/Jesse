@@ -1,0 +1,64 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    background-color: #ddd;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.navbar li {
+    flex: auto;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: brown;
+}
+
+.hero {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.formDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: start;
+  gap: 5px;
+}
+
+.inputDiv{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+
+.inputDiv input{
+    width: 80%;
+}
